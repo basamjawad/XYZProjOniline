@@ -3,17 +3,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
 
 namespace XamarinGitHub001
 {
-    public partial class MainPage : ContentPage
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class Home : ContentPage
     {
-        public MainPage()
+        public Home()
         {
             InitializeComponent();
-            //this is update I want to see in the GitHub
-            //this is 2nd update after first branch
         }
     }
 }
