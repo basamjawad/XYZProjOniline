@@ -4,7 +4,7 @@
              x:Class="XamarinGitHub001.SecondPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Second Page"
+            <Label Text="Second Page is updated by Basam"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>
